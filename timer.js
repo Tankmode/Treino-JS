@@ -15,7 +15,8 @@ function starttimer(duration, display){
      timer = duration;
    } 
    if (timer == 0){
-     
+     timer = duration;
+     timer = "";
    }
    
     
